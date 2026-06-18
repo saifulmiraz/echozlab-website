@@ -1,19 +1,5 @@
 import type { Author, Category, Comparison, Post, Product } from "./data-types";
 
-/* ──────────────────────────────────────────────────────────────
-   EchozLab content data — AMAZON-ONLY EDITION
-   Every product below is sold on US Amazon with a real ASIN
-   (verified June 2026). Specs come from manufacturer pages and
-   independent reviews (TechPowerUp, Tom's Hardware, RTINGS, PC Gamer).
-
-   Scores are EchozLab editorial ratings — presented as opinion,
-   NOT fabricated lab measurements. Adjust any number to match your
-   own hands-on experience, and put your real name in `authors`.
-
-   PHOTOS: each product's review uses the ImageSlot placeholder until
-   you add your own photos to /public/images/ and swap them in.
-   ────────────────────────────────────────────────────────────── */
-
 export const authors: Author[] = [
   {
     name: "EchozLab Team",            // ← change to your real name
