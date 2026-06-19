@@ -92,7 +92,7 @@ export default function ReviewPage({ params }: Props) {
         {/* Sidebar */}
         <aside className="space-y-8 lg:sticky lg:top-20 lg:self-start">
           <div className="rounded-lg border border-line bg-surface p-4">
-            <SpecTable specs={p.specs} caption="Key specs (measured where noted)" />
+            <SpecTable specs={p.specs} caption="Key specs" />
           </div>
         </aside>
       </div>

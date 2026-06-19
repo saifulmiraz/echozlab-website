@@ -10,7 +10,7 @@ export default function Header() {
             Echoz<span className="text-amber">Lab</span>
           </span>
           <span className="hidden font-mono text-[10px] uppercase tracking-widest text-muted sm:inline">
-            tested · measured · ranked
+            reviews · rankings · guides
           </span>
         </Link>
         <nav aria-label="Categories" className="hidden lg:block">

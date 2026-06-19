@@ -6,9 +6,9 @@ import { ScoreBar } from "@/components/ScoreBar";
 import { categories, posts, products } from "@/lib/data";
 
 const trust = [
-  "Hands-on tested",
+  "Independent reviews",
   "No paid scores",
-  "Updated monthly",
+  "Updated regularly",
   "Reader-funded via affiliate links",
 ];
 
@@ -28,14 +28,14 @@ export default function HomePage() {
         <div aria-hidden className="pointer-events-none absolute inset-0 bg-hero-glow" />
         <div className="relative mx-auto grid max-w-wrap gap-10 px-4 py-16 lg:grid-cols-[1.2fr_1fr] lg:py-24">
           <div>
-            <Eyebrow>The test bench is open</Eyebrow>
+            <Eyebrow>Independent gear reviews</Eyebrow>
             <h1 className="mt-4 font-display text-4xl font-bold leading-tight tracking-tight text-ink sm:text-5xl">
               Gear reviews <span className="text-amber">with receipts.</span>
             </h1>
             <p className="mt-4 max-w-xl text-lg leading-relaxed text-muted">
-              Every score on this site is backed by bench data — measured click
-              latency, panel response, mic samples, weeks of real use. We test
-              gaming gear so the spec sheet can&apos;t lie to you.
+              Honest, plain-English reviews of gaming gear for US players. We
+              cut through the spec-sheet noise to tell you what&apos;s actually
+              worth buying — and what to skip.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <Link
@@ -48,7 +48,7 @@ export default function HomePage() {
                 href="/blog"
                 className="rounded border border-line px-5 py-2.5 text-sm font-semibold text-ink transition-colors hover:border-amber hover:text-amber"
               >
-                How we test
+                How we review
               </Link>
             </div>
           </div>
@@ -71,7 +71,7 @@ export default function HomePage() {
               <ScoreBar label="Value" value={featured.scores.value} />
             </div>
             <p className="mt-4 font-mono text-sm text-ink">
-              Bench score <span className="text-2xl font-bold text-amber">{featured.overall.toFixed(1)}</span>
+              Overall <span className="text-2xl font-bold text-amber">{featured.overall.toFixed(1)}</span>
               <span className="text-muted">/10</span>
             </p>
           </Link>

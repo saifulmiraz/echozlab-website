@@ -1,5 +1,19 @@
 import type { Author, Category, Comparison, Post, Product } from "./data-types";
 
+/* ──────────────────────────────────────────────────────────────
+   EchozLab content data — AMAZON-ONLY EDITION
+   Every product below is sold on US Amazon with a real ASIN
+   (verified June 2026). Specs come from manufacturer pages and
+   independent reviews (TechPowerUp, Tom's Hardware, RTINGS, PC Gamer).
+
+   Scores are EchozLab editorial ratings — presented as opinion,
+   NOT fabricated lab measurements. Adjust any number to match your
+   own hands-on experience, and put your real name in `authors`.
+
+   PHOTOS: each product's review uses the ImageSlot placeholder until
+   you add your own photos to /public/images/ and swap them in.
+   ────────────────────────────────────────────────────────────── */
+
 export const authors: Author[] = [
   {
     name: "EchozLab Team",            // ← change to your real name
@@ -253,7 +267,7 @@ export const products: Product[] = [
     category: "gaming-mice",
     name: "Logitech G502 X Plus",
     brand: "Logitech",
-    asin: "B0B7BP6Y67",
+    asin: "B092CB69Q4",
     ebayQuery: "Logitech G502 X Plus wireless",
     priceBand: "~$129",
     badge: "Best for MMO / all-purpose",
@@ -300,7 +314,7 @@ export const products: Product[] = [
     category: "gaming-mice",
     name: "Logitech G305 Lightspeed",
     brand: "Logitech",
-    asin: "B07CMS5Q5N",
+    asin: "B07CMS5Q6N",
     ebayQuery: "Logitech G305 Lightspeed",
     priceBand: "~$45",
     badge: "Best budget wireless",
@@ -386,7 +400,7 @@ export const products: Product[] = [
     category: "gaming-keyboards",
     name: "Razer Huntsman V3 Pro TKL",
     brand: "Razer",
-    asin: "B0CN8GP2K6",
+    asin: "B0CG7BWG7J",
     ebayQuery: "Razer Huntsman V3 Pro TKL",
     priceBand: "~$199",
     badge: "Best for analog optical",
@@ -470,7 +484,7 @@ export const products: Product[] = [
     category: "gaming-headsets",
     name: "SteelSeries Arctis Nova 7 (Wireless)",
     brand: "SteelSeries",
-    asin: "B0B57FYJHL",
+    asin: "B0B15QM5LL",
     ebayQuery: "SteelSeries Arctis Nova 7 wireless",
     priceBand: "~$179",
     badge: "Best wireless",
@@ -557,7 +571,7 @@ export const products: Product[] = [
     category: "gaming-chairs",
     name: "Razer Iskur V2",
     brand: "Razer",
-    asin: "B0CXXNK4QP",
+    asin: "B0CPH72BMN",
     ebayQuery: "Razer Iskur V2 gaming chair",
     priceBand: "~$649",
     badge: "Best lumbar support",
@@ -726,7 +740,7 @@ export const products: Product[] = [
     category: "console-accessories",
     name: "Sony DualSense Edge",
     brand: "Sony",
-    asin: "B0BNNQRQBZ",
+    asin: "B0BSYFB99D",
     ebayQuery: "DualSense Edge controller",
     priceBand: "~$199",
     badge: "Best PS5 pro controller",
@@ -767,7 +781,7 @@ export const products: Product[] = [
     category: "console-accessories",
     name: "WD_BLACK SN850P 2TB (for PS5)",
     brand: "Western Digital",
-    asin: "B0C49GCN2T",
+    asin: "B0C47ZX1WB",
     ebayQuery: "WD Black SN850P 2TB PS5",
     priceBand: "~$199",
     badge: "Best PS5 SSD upgrade",
@@ -904,6 +918,216 @@ export const posts: Post[] = [
     updated: "2026-06-17",
     author: "EchozLab Team",
     readMins: 6,
+  },
+  {
+    slug: "gaming-mouse-grip-guide",
+    title: "Palm, Claw or Fingertip? How to Pick a Gaming Mouse for Your Grip",
+    category: "gaming-mice",
+    excerpt:
+      "Grip style matters more than any spec when buying a mouse. Here's how to find yours and which shapes suit it.",
+    answerFirst:
+      "Your grip style — palm, claw, or fingertip — is the single most important factor when choosing a gaming mouse, more than sensor, DPI or weight. Palm grippers rest the whole hand and suit larger, humped shapes. Claw grippers arch their fingers and prefer a shorter body with a defined hump. Fingertip grippers steer with just their fingertips and want the lightest, smallest mice. Identify yours first, then shop within that shape.",
+    body: [
+      {
+        heading: "How to find your grip",
+        body: "Palm grip: your whole palm and fingers rest flat on the mouse — the most relaxed, common style, great for control. Claw grip: your palm touches the back but your fingers arch up like a claw, with fingertips on the buttons — a balance of speed and control. Fingertip grip: only your fingertips touch the mouse and your palm floats — maximum agility, favoured by fast, flicky players.",
+      },
+      {
+        heading: "Best shapes for palm grip",
+        body: "Look for a longer body with a higher, rear-set hump that fills the hand — something like a larger ergonomic mouse. Weight matters less here since the hand is supported; comfort over many hours is the priority.",
+      },
+      {
+        heading: "Best shapes for claw grip",
+        body: "A medium-length mouse with a defined central hump gives your arched fingers something to grip. Many of today's popular esports mice (symmetrical, ~55-65 g) suit claw grip well.",
+      },
+      {
+        heading: "Best shapes for fingertip grip",
+        body: "Go as light and as small as is comfortable. Ultralight mice (under ~55 g) with a low profile let you steer purely with the fingertips without fatigue.",
+      },
+    ],
+    takeaways: [
+      "Grip style beats every spec when choosing a mouse",
+      "Palm = bigger, humped shapes; comfort first",
+      "Claw = medium body with a defined hump",
+      "Fingertip = lightest, smallest mice you can find",
+    ],
+    relatedProductSlug: "razer-viper-v3-pro",
+    updated: "2026-06-17",
+    author: "EchozLab Team",
+    readMins: 6,
+  },
+  {
+    slug: "wired-vs-wireless-gaming-mouse",
+    title: "Wired vs Wireless Gaming Mouse: Which Should You Actually Buy in 2026?",
+    category: "gaming-mice",
+    excerpt:
+      "Wireless used to mean lag. Not anymore. Here's the honest case for each in 2026.",
+    answerFirst:
+      "In 2026, flagship wireless gaming mice are effectively as fast as wired ones — modern 2.4 GHz connections (Logitech LIGHTSPEED, Razer HyperSpeed) have no perceptible latency penalty for the vast majority of players. Choose wireless for freedom of movement and a cleaner desk if your budget allows; choose wired to save money, since you get the same performance for less. Avoid Bluetooth for gaming — it's still too slow.",
+    body: [
+      {
+        heading: "The latency myth is mostly dead",
+        body: "Early wireless mice did add lag, which is where the reputation comes from. Today's dedicated 2.4 GHz dongles close that gap to the point where blind tests can't reliably tell wired from wireless. The dongle is the key — Bluetooth remains too laggy for competitive play.",
+      },
+      {
+        heading: "Where wireless wins",
+        body: "No cable drag means smoother, more consistent movement, especially for low-sensitivity players who make big arm sweeps. It's also just tidier. The trade-offs are higher price and the need to charge — though flagship batteries now last days to weeks.",
+      },
+      {
+        heading: "Where wired still makes sense",
+        body: "You get the same sensor and switches for less money, and you never think about charging. A good wired mouse with a flexible paracord cable feels nearly cable-free and is the value champion.",
+      },
+    ],
+    takeaways: [
+      "Flagship 2.4 GHz wireless has no meaningful lag in 2026",
+      "Wireless = freedom and tidiness, at a higher price",
+      "Wired = same performance for less money",
+      "Never use Bluetooth for competitive gaming",
+    ],
+    relatedProductSlug: "logitech-g305-lightspeed",
+    updated: "2026-06-17",
+    author: "EchozLab Team",
+    readMins: 5,
+  },
+  {
+    slug: "how-to-choose-a-gaming-monitor",
+    title: "How to Choose a Gaming Monitor: Resolution, Refresh Rate & Panel Type Explained",
+    category: "gaming-monitors",
+    excerpt:
+      "1080p or 1440p? 144 Hz or 240 Hz? IPS or OLED? A plain-English guide to picking the right gaming monitor.",
+    answerFirst:
+      "For most gamers in 2026, the sweet spot is a 1440p monitor at 144-240 Hz with an IPS or OLED panel. Competitive FPS players who want maximum frame rates may prefer 1080p at 240 Hz+; players who value visuals should lean toward 1440p (or 4K) with OLED for its superior contrast. Match the monitor to your GPU — there's no point buying 240 Hz if your graphics card can't push the frames.",
+    body: [
+      {
+        heading: "Resolution: sharpness vs frame rate",
+        body: "1080p is easiest to drive and gives the highest frame rates — good for pure competitive play. 1440p is the current sweet spot, noticeably sharper while still very drivable. 4K looks stunning but demands a powerful GPU and is better for single-player and visual showcases than fast esports.",
+      },
+      {
+        heading: "Refresh rate: how smooth it feels",
+        body: "Measured in hertz (Hz), this is how many frames per second the monitor can show. 144 Hz is a massive upgrade over 60 Hz and plenty for most. 240 Hz benefits competitive FPS players. Beyond that, returns shrink and you need a strong GPU to feed it.",
+      },
+      {
+        heading: "Panel type: IPS vs OLED vs VA",
+        body: "IPS gives great color and fast response at fair prices — the safe all-rounder. OLED delivers the best contrast and near-instant response (the premium choice, with a small burn-in caveat for static UI). VA sits between, with strong contrast but sometimes slower response.",
+      },
+      {
+        heading: "Match it to your GPU",
+        body: "Buy the monitor your graphics card can actually drive. A mid-range GPU pairs well with 1440p 144-165 Hz; a high-end card can justify 1440p 240 Hz OLED or 4K. Don't pay for refresh you can't reach.",
+      },
+    ],
+    takeaways: [
+      "1440p 144-240 Hz is the 2026 sweet spot for most",
+      "1080p 240 Hz+ for pure competitive FPS",
+      "OLED = best image; IPS = best value all-rounder",
+      "Always match the monitor to your GPU's output",
+    ],
+    relatedProductSlug: "lg-ultragear-27gs93qe",
+    updated: "2026-06-17",
+    author: "EchozLab Team",
+    readMins: 7,
+  },
+  {
+    slug: "is-oled-burn-in-a-risk-for-gaming",
+    title: "Is OLED Burn-In Still a Risk for Gaming Monitors in 2026?",
+    category: "gaming-monitors",
+    excerpt:
+      "OLED looks incredible, but should gamers worry about burn-in? Here's an honest read on the real risk today.",
+    answerFirst:
+      "For typical mixed gaming use — different games, some desktop work, the occasional video — modern OLED gaming monitors show no visible burn-in within their warranty period, thanks to built-in protections like pixel-shift and compensation cycles. The genuine risk case is displaying the same static element (a fixed HUD, taskbar or ticker) for many hours every day. For most gamers, OLED is safe to buy.",
+    body: [
+      {
+        heading: "Why modern panels resist burn-in",
+        body: "Today's OLED monitors include pixel-shifting, logo/edge dimming and automatic compensation cycles that run when the screen sleeps. Manufacturers now back them with multi-year burn-in warranties — they wouldn't if failures were common.",
+      },
+      {
+        heading: "Habits that remove almost all risk",
+        body: "Auto-hide your taskbar, use dark mode where possible, let the monitor run its compensation cycle (don't kill power at the wall every time), and vary what's on screen. That's essentially the whole checklist.",
+      },
+      {
+        heading: "Who should still pick LCD",
+        body: "If the same monitor doubles as an 8-hour-a-day work display with fixed UI — spreadsheets, trading dashboards, coding with a static sidebar — a high-quality IPS or Mini-LED LCD is the zero-worry choice.",
+      },
+    ],
+    takeaways: [
+      "Mixed-use gaming: burn-in is effectively a non-issue",
+      "Built-in protections + warranties make modern OLED safe",
+      "Real risk = same static UI 8+ hours daily",
+      "Heavy fixed-UI work users may prefer IPS/Mini-LED",
+    ],
+    relatedProductSlug: "lg-ultragear-27gs93qe",
+    updated: "2026-06-17",
+    author: "EchozLab Team",
+    readMins: 6,
+  },
+  {
+    slug: "how-to-upgrade-ps5-ssd",
+    title: "How to Upgrade Your PS5 Storage: A Simple SSD Guide",
+    category: "console-accessories",
+    excerpt:
+      "Running out of PS5 space? Adding an SSD is a 15-minute job. Here's exactly what to buy and how it works.",
+    answerFirst:
+      "To expand PS5 storage you need a PCIe Gen4 NVMe M.2 SSD with a heatsink that meets Sony's speed requirement (at least 5,500 MB/s read). Power off the console, remove the SSD bay cover, install the drive in the M.2 slot, replace the cover, and the PS5 formats it automatically. The whole process takes about 15 minutes and needs only a Phillips screwdriver.",
+    body: [
+      {
+        heading: "What to buy",
+        body: "Look for a Gen4 NVMe drive rated 5,500 MB/s or faster, in the 1-2 TB range for the best value. The easiest option is a drive that ships with a heatsink already fitted and is labelled PS5-compatible, so there's no guesswork about cooling.",
+      },
+      {
+        heading: "How to install it",
+        body: "Power down and unplug the PS5, slide off the side panel, unscrew the long storage bay cover, seat the SSD into the M.2 slot at an angle and secure it with the screw, then replace everything. On next boot the PS5 prompts you to format the drive — done.",
+      },
+      {
+        heading: "Why it's worth it",
+        body: "Modern games are huge, and the internal drive fills fast. A second SSD lets you keep far more installed, and PS5 games run directly from it. It's one of the cheapest, highest-impact upgrades a PS5 owner can make.",
+      },
+    ],
+    takeaways: [
+      "Need a Gen4 NVMe SSD, 5,500 MB/s+, with heatsink",
+      "1-2 TB is the value sweet spot",
+      "Install takes ~15 minutes and one screwdriver",
+      "PS5 formats the drive automatically on boot",
+    ],
+    relatedProductSlug: "wd-black-sn850p-2tb-ps5",
+    updated: "2026-06-17",
+    author: "EchozLab Team",
+    readMins: 6,
+  },
+  {
+    slug: "gaming-headset-buying-guide",
+    title: "Gaming Headset Buying Guide: What Actually Matters for Sound and Comfort",
+    category: "gaming-headsets",
+    excerpt:
+      "Drivers, surround sound, wired vs wireless, mic quality — here's what's worth paying for in a gaming headset.",
+    answerFirst:
+      "When buying a gaming headset, prioritise comfort, a balanced sound signature (so footsteps stay clear), and a decent microphone — in that order. Don't overpay for 'virtual surround', which often blurs directional cues more than good stereo. Wired headsets give the best sound per dollar; wireless adds convenience for a premium. Fit and clamp force matter more than headline driver size.",
+    body: [
+      {
+        heading: "Comfort comes first",
+        body: "You'll wear this for hours, so clamp force, ear-cup size and headband padding matter more than any spec. If it hurts after an hour, the sound quality is irrelevant. Memory-foam cushions and an adjustable, even-pressure fit are what to look for.",
+      },
+      {
+        heading: "Sound: balanced beats bassy",
+        body: "For competitive play, a neutral-to-bright tuning keeps footsteps and reloads easy to locate. Heavy bass is fun for single-player immersion but can bury the directional cues that win rounds. Driver size (40 mm vs 53 mm) matters less than tuning.",
+      },
+      {
+        heading: "Surround sound: usually skip it",
+        body: "Good stereo imaging plus a game's own audio engine often places enemies more accurately than virtual surround DSP, which can smear positioning. Treat surround as a nice-to-have, not a deciding feature.",
+      },
+      {
+        heading: "Wired vs wireless and the mic",
+        body: "Wired delivers the best value and never needs charging; wireless buys convenience at a premium with negligible modern latency. Whatever you pick, a clear mic your teammates don't complain about is worth prioritising — a detachable or flip-to-mute boom is ideal.",
+      },
+    ],
+    takeaways: [
+      "Comfort and fit matter most — you wear it for hours",
+      "Balanced tuning keeps footsteps clear; skip heavy bass",
+      "Virtual surround is usually unnecessary",
+      "Wired = value; wireless = convenience; mic quality matters",
+    ],
+    relatedProductSlug: "hyperx-cloud-iii-wired",
+    updated: "2026-06-17",
+    author: "EchozLab Team",
+    readMins: 7,
   },
 ];
 

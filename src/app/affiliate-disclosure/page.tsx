@@ -27,7 +27,7 @@ export default function DisclosurePage() {
           instead of us purchasing it, we say so in the review.
         </p>
         <p>
-          Our scores come from measured data and weeks of real use. If a
+          Our scores reflect independent research and hands-on opinion. If a
           product is bad, we say it&apos;s bad — and link you to something
           better, even when that earns us less.
         </p>

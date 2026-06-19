@@ -6,8 +6,8 @@ export const site = {
     "Hands-on gaming gear reviews backed by bench data. Mice, keyboards, headsets, monitors, chairs, streaming equipment, PC components and console accessories — tested, measured, ranked.",
   twitter: "@echozlab",
   // ── Affiliate IDs — paste your real IDs here when you have them (guide Part 9) ──
-  amazonTag: "echozlab20-20", // Amazon Associates tracking ID
-  ebayCampaignId: "5339157057", // eBay Partner Network campid
+  amazonTag: "YOUR-AMAZON-TAG-20", // Amazon Associates tracking ID
+  ebayCampaignId: "YOUR-EPN-CAMPAIGN-ID", // eBay Partner Network campid
 };
 
 /** Build an Amazon affiliate link from an ASIN. */

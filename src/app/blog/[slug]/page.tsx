@@ -43,7 +43,16 @@ export default function BlogPost({ params }: Props) {
       <JsonLd data={[breadcrumbSchema(crumbs), articleSchema(post)]} />
       <Breadcrumbs items={crumbs.slice(0, 2)} />
 
-      <h1 className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight text-ink sm:text-4xl">
+      <div className="mt-4 overflow-hidden rounded-xl border border-line">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={`/images/post-${post.slug}.svg`}
+          alt={post.title}
+          className="h-auto w-full"
+        />
+      </div>
+
+      <h1 className="mt-6 font-display text-3xl font-bold leading-tight tracking-tight text-ink sm:text-4xl">
         {post.title}
       </h1>
       <div className="mt-3">

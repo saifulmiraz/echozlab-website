@@ -40,15 +40,24 @@ export default function CategoryPage({ params }: Props) {
       <JsonLd data={[breadcrumbSchema(crumbs), faqSchema(cat.faq)]} />
       <Breadcrumbs items={crumbs} />
 
-      <h1 className="mt-4 font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
-        {cat.name} — Tested &amp; Ranked
+      <div className="mt-4 overflow-hidden rounded-xl border border-line">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={`/images/cat-${cat.slug}.svg`}
+          alt={`${cat.name} — EchozLab`}
+          className="h-auto w-full"
+        />
+      </div>
+
+      <h1 className="mt-6 font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+        {cat.name} — Reviews &amp; Rankings
       </h1>
       <p className="mt-3 max-w-3xl text-lg leading-relaxed text-muted">{cat.blurb}</p>
       <div className="mt-5 max-w-3xl"><Disclosure /></div>
 
       {/* Review grid */}
       <section className="mt-10">
-        <Eyebrow>Every unit on the bench</Eyebrow>
+        <Eyebrow>Our picks</Eyebrow>
         <h2 className="mt-3 font-display text-2xl font-bold text-ink">Reviews</h2>
         {items.length > 0 ? (
           <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
